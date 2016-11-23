@@ -11,9 +11,8 @@ http://blog.csdn.net/aganlengzi/article/details/53261391
 ###1.工程文件放置：
 ```
 cd /path/to/apache-storm-1.0.2/examples/storm-starter/multilang/resources
-git clone 
-tar –xvf stormcpp.tar.gz
-cd stormcpp
+git clone git@github.com:Aganlengzi/stormcpp-demo.git
+cd stormcpp-demo
 mv WordCountTopologyCpp.java /path/to/storm-starter/src/jvm/org/apache/storm/starter/
 mv *.sh ../
 ```
@@ -43,7 +42,7 @@ cp ./libjson_linux-gcc-x.x.x_libmt.so /path/to/storm-starter/multilang/resources
 ###4.编译生成可执行文件
 并将其与shell文件放到/path/to/storm-starter/multilang/resources
 ```
-cd /path/to/storm-starter/multilang/resources/stormcpp
+cd /path/to/storm-starter/multilang/resources/stormcpp-demo
 cd build
 cmake ..
 make
