@@ -21,7 +21,7 @@ mv *.sh ../
 百度网盘链接：http://pan.baidu.com/s/1dE4j8jR
 下载scons-2.1.0并解压至/path/to/scons-2.1.0
 ```
-wget http://sourceforge.net/projects/scons/files/scons/2.1.0/scons-2.1.0.tar.gz/download
+wget http://sourceforge.net/projects/scons/files/scons/2.1.0/scons-2.1.0.tar.gz
 tar –xvf scons-2.1.0.tar.gz
 vi /etc/profile
 export MYSCONS=/path/to/scons-2.1.0
